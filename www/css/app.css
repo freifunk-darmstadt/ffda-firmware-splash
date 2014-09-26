@@ -1,3 +1,5 @@
+body { overflow: scroll; }
+
 a { color: #009ee0; }
 
 .tab-content {
