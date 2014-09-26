@@ -1,3 +1,9 @@
+# gluon firmware target symlink
+target/
+
+# rendered template
+www/index.html
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -50,5 +56,3 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-# PyBuilder
-target/

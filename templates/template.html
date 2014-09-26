@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img src="img/router.png" alt="Freifunk-Router" title="Freifunk-Router, cc by-sa Philipp Seefeldt, http://vimeo.com/64814620"><h1 style="color: #dc0067">Firmware</h1>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Erst mit der Freifunk-Firmware wird dein Router zu einem Teil des Freifunk-Netzes. Sie ist fertig
+                vorkonfiguriert, um Kontakt mit benachbarten Freifunk-Knoten aufzunehmen und ein offenes und
+                anonymes Freifunk-WLAN auszustrahlen und dich dabei vor der St&ouml;rerhaftung zu sch&uuml;tzen.
+
+            </div>
+        </div>
+
+        <ul id="tabs" class="nav nav-tabs" role="tablist">
+            <li class="active"><a href="#home" role="tab" data-toggle="tab">Erkl&auml;rung</a></li>
+            <li><a href="#stable" role="tab" data-toggle="tab">Stable</a></li>
+            <li><a href="#beta" role="tab" data-toggle="tab">Beta</a></li>
+            <li><a href="#experimental" role="tab" data-toggle="tab">Experimental</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="home">
+                <p>
+                    Unsere Freifunk-Firmware bieten wir derzeit in drei Release-Modellen an:
+
+                    <ul>
+                        <li>
+                            <strong>Stable <sup><span style="color: #ffb400">Empfehlung</span></sup></strong><br />
+                            Gut getestet, zuverl&auml;ssig und stabil.<br />
+                        </li>
+                        <li>
+                            <strong>Beta</strong><br />
+                            Vorabtests neuer Stable-Kandidaten, derzeit basierend auf Attitude Adjustment<br />
+                        </li>
+                        <li>
+                            <strong>Experimental</strong><br />
+                            Ungetestet, automatisch generiert. Nightly-Build Gluon Master, derzeit basierend auf Barrier Breaker<br />
+                        </li>
+                    </ul>
+
+                    Die Auswahl des passenden Release-Modells entscheidet &uuml;ber die Stablit&auml;t des Routers und den potentiell
+                    anfallenden Wartungsaufwand.
+                </p>
+            </div>
+            {% for branch in branches %}
+            <div class="tab-pane" id="{{ branch }}">
+                <table style="width: 90%" class="table table-condensed table-striped">
+                    <thead>
+                        <tr>
+                            <th width="15%">Hersteller</th>
+                            <th width="15%">Modell</th>
+                            <th width="35%">Erstinstallation</th>
+                            <th width="35%">Upgrade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for model in db[branch] %}
+                        <tr>
+                            <td>
+                                {{ db[branch][model]['vendor'] }}
+                            </td>
+                            <td>
+                                {{ db[branch][model]['model'] }}
+                            </td>
+                            <td>
+                                {% for image in db[branch][model]['sysupgrade'] %}
+                                [<a href="{{ branch }}/factory/{{ image['filename'] }}">{{ image['revision'] }}</a>]
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% for image in db[branch][model]['factory'] %}
+                                [<a href="{{ branch }}/sysupgrade/{{ image['filename'] }}">{{ image['revision'] }}</a>]
+                                {% endfor %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% endfor %}
+        </div>
+
+        <footer>
+
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#tabs').tab();
+        });
+    </script>
+</body>
+</html>

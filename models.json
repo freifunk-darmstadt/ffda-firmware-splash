@@ -1,0 +1,158 @@
+{
+    "tp-link-tl-wr741n-nd-v4":
+        {"vendor": "TP-Link",
+         "model": "TL-WR741N/ND",
+         "revision": "v4"},
+    "tp-link-tl-wr741n-nd-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR741N/ND",
+         "revision": "v1"},
+    "tp-link-tl-wa801n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WA801N/ND",
+         "revision": "v1"},
+    "d-link-dir-825-rev-b1":
+        {"vendor": "D-Link",
+         "model": "DIR 825",
+         "revision": "B1"},
+    "tp-link-tl-wr741n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WR741N/ND",
+         "revision": "v2"},
+    "tp-link-tl-wr1043n-nd-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR1043N/ND",
+         "revision": "v1"},
+    "tp-link-tl-wr710n-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR710N",
+         "revision": "v1"},
+    "ubiquiti-nanostation-m":
+        {"vendor": "Ubiquiti",
+         "model": "Nanostation",
+         "revision": "M2/M5"},
+    "tp-link-tl-mr3220-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3220",
+         "revision": "v1"},
+    "ubiquiti-unifiap-outdoor":
+        {"vendor": "Ubiquiti",
+         "model": "Unifi AP",
+         "revision": "Outdoor"},
+    "tp-link-tl-wdr3600-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WDR3600",
+         "revision": "v1"},
+    "tp-link-tl-wr941n-nd-v3":
+        {"vendor": "TP-Link",
+         "model": "TL-WR941N/ND",
+         "revision": "v3"},
+    "tp-link-tl-wr941n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WR941N/ND",
+         "revision": "v2"},
+    "tp-link-tl-wr941n-nd-v4":
+        {"vendor": "TP-Link",
+         "model": "TL-WR941N/ND",
+         "revision": "v4"},
+    "tp-link-tl-wr740n-nd-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR740N/ND",
+         "revision": "v1"},
+    "tp-link-tl-mr3420-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3420",
+         "revision": "v1"},
+    "tp-link-tl-wr1043n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WR1043N/ND",
+         "revision": "v2"},
+    "tp-link-tl-mr3420-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3420",
+         "revision": "v2"},
+    "tp-link-tl-mr3040-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3040",
+         "revision": "v1"},
+    "tp-link-tl-wr842n-nd-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR842N/ND",
+         "revision": "v1"},
+    "tp-link-tl-wr842n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WR741N/ND",
+         "revision": "v2"},
+    "ubiquiti-unifi":
+        {"vendor": "Ubiquiti",
+         "model": "Unifi AP",
+         "revision": "Indoor"},
+    "tp-link-tl-wr841n-nd-v5":
+        {"vendor": "TP-Link",
+         "model": "TL-WR841N/ND",
+         "revision": "v5"},
+    "ubiquiti-bullet-m":
+        {"vendor": "Ubiquiti",
+         "model": "Bullet",
+         "revision": "M2/M5"},
+    "tp-link-tl-wr841n-nd-v7":
+        {"vendor": "TP-Link",
+         "model": "TL-WR841N/ND",
+         "revision": "v7"},
+    "tp-link-tl-wr841n-nd-v3":
+        {"vendor": "TP-Link",
+         "model": "TL-WR841N/ND",
+         "revision": "v3"},
+    "tp-link-tl-mr3020-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3020",
+         "revision": "v1"},
+    "tp-link-tl-wr740n-nd-v4":
+        {"vendor": "TP-Link",
+         "model": "TL-WR740N/ND",
+         "revision": "v4"},
+    "tp-link-tl-wr841n-nd-v8":
+        {"vendor": "TP-Link",
+         "model": "TL-WR841N/ND",
+         "revision": "v8"},
+    "tp-link-tl-wr740n-nd-v3":
+        {"vendor": "TP-Link",
+         "model": "TL-WR740N/ND",
+         "revision": "v3"},
+    "tp-link-tl-wr841n-nd-v9":
+        {"vendor": "TP-Link",
+         "model": "TL-WR841N/ND",
+         "revision": "v9"},
+    "tp-link-tl-wr703n-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WR703N/ND",
+         "revision": "v1"},
+    "linksys-wrt160nl":
+        {"vendor": "Linksys",
+         "model": "WRT160NL",
+         "revision": "v1/v6"},
+    "tp-link-tl-wdr4300-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WDR4300",
+         "revision": "v1"},
+    "buffalo-wzr-hp-g450h":
+        {"vendor": "Buffalo",
+         "model": "WZR-HP-G450H",
+         "revision": "alle"},
+    "tp-link-tl-wdr3500-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WDR3500",
+         "revision": "v1"},
+    "tp-link-tl-wa901n-nd-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-WA901N/ND",
+         "revision": "v2"},
+    "d-link-dir-615-rev-e1":
+        {"vendor": "D-Link",
+         "model": "DIR-625",
+         "revision": "E1"},
+    "tp-link-tl-mr3040-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-MR3040",
+         "revision": "v2"}
+}
