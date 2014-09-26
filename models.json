@@ -130,7 +130,7 @@
     "linksys-wrt160nl":
         {"vendor": "Linksys",
          "model": "WRT160NL",
-         "revision": "v1/v6"},
+         "revision": "alle"},
     "tp-link-tl-wdr4300-v1":
         {"vendor": "TP-Link",
          "model": "TL-WDR4300",
