@@ -71,12 +71,12 @@
                                 {{ db[branch][model]['model'] }}
                             </td>
                             <td>
-                                {% for image in db[branch][model]['sysupgrade'] %}
+                                {% for image in db[branch][model]['factory'] %}
                                 [<a href="{{ branch }}/factory/{{ image['filename'] }}">{{ image['revision'] }}</a>]
                                 {% endfor %}
                             </td>
                             <td>
-                                {% for image in db[branch][model]['factory'] %}
+                                {% for image in db[branch][model]['sysupgrade'] %}
                                 [<a href="{{ branch }}/sysupgrade/{{ image['filename'] }}">{{ image['revision'] }}</a>]
                                 {% endfor %}
                             </td>
