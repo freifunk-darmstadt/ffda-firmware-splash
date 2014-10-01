@@ -83,10 +83,6 @@
         {"vendor": "TP-Link",
          "model": "TL-WR842N/ND",
          "revision": "v2"},
-    "tp-link-tl-wr842n-nd-v2":
-        {"vendor": "TP-Link",
-         "model": "TL-WR741N/ND",
-         "revision": "v2"},
     "ubiquiti-unifi":
         {"vendor": "Ubiquiti",
          "model": "Unifi AP",
