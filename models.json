@@ -125,7 +125,7 @@
          "revision": "v9"},
     "tp-link-tl-wr703n-v1":
         {"vendor": "TP-Link",
-         "model": "TL-WR703N/ND",
+         "model": "TL-WR703N",
          "revision": "v1"},
     "linksys-wrt160nl":
         {"vendor": "Linksys",
@@ -149,7 +149,7 @@
          "revision": "v2"},
     "d-link-dir-615-rev-e1":
         {"vendor": "D-Link",
-         "model": "DIR-625",
+         "model": "DIR-615",
          "revision": "E1"},
     "tp-link-tl-mr3040-v2":
         {"vendor": "TP-Link",
