@@ -154,5 +154,9 @@
     "tp-link-tl-mr3040-v2":
         {"vendor": "TP-Link",
          "model": "TL-MR3040",
-         "revision": "v2"}
+         "revision": "v2"},
+    "buffalo-wzr-hp-ag300h":
+        {"vendor": "Buffalo",
+         "model": "WZR-HP-AG300H",
+         "revision": "v1"}
 }
