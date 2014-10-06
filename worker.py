@@ -1,3 +1,4 @@
+from __future__ import print_function
 from jinja2 import Environment, FileSystemLoader
 from collections import defaultdict, OrderedDict
 from itertools import groupby
@@ -65,7 +66,7 @@ for branch in branches:
                 try:
                     tmp = dict(tmp.items() + models[model].items())
                 except KeyError:
-                    print("Missing ModelInfo for %s" % model)
+                    print("Missing ModelInfo for %s" % model, file=sys.stderr)
                     continue
 
                 db.insert(branch, image_type, tmp['vendor'], tmp['model'], tmp['revision'], filename)
