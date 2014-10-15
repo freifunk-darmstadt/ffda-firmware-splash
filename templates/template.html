@@ -52,6 +52,7 @@
             </div>
             {% for branch in branches %}
             <div class="tab-pane" id="{{ branch }}">
+                <strong>Version:</strong> {{ versions[branch] }}<br />
                 <table style="width: 90%" class="table table-condensed table-striped">
                     <thead>
                         <tr>

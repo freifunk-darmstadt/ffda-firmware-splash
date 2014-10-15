@@ -48,6 +48,7 @@ class FirmwareInfoContainer(object):
 
 # read available images
 db = FirmwareInfoContainer()
+versions = {}
 for branch in branches:
     for image_type in types:
         for _, _, files in os.walk('./target/%s/%s' % (branch, image_type)):
@@ -71,6 +72,7 @@ for branch in branches:
                     continue
 
                 db.insert(branch, image_type, tmp['vendor'], tmp['model'], tmp['revision'], filename)
+                versions[branch] = version
 
 db.group()
 
@@ -81,4 +83,4 @@ env = Environment()
 env.loader = FileSystemLoader('templates')
 template = env.get_template('template.html')
 
-print(template.render(branches=branches, db=db.get()))
+print(template.render(branches=branches, versions=versions, db=db.get()))
