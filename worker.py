@@ -59,7 +59,14 @@ for branch in branches:
                     continue
 
                 # TODO: can we make this beautifulz and shiny? *_*
+                version_margin = 0
                 version = image_file.replace(prefix, '').split('-')[0]
+                # TODO: dirty hack to support 0.6.0-[/d]* type versioning for experimental builds
+                try:
+                    release_date = int(image_file.split(version)[1].split('-')[1])
+                    version = '%s-%s' % (version, release_date)
+                except ValueError:
+                    pass
                 model = image_file.split('%s-' % version)[1].replace('-sysupgrade.bin', '').replace('.bin', '')
                 filename = image_file
 
