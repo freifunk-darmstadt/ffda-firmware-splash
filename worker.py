@@ -17,11 +17,12 @@ models_file = open('models.json', 'r')
 models = json.load(models_file)
 models_file.close()
 
-
+# setup PrettyPrinter
 pp = PrettyPrinter()
 
+
 # setup data foo
-class DataFoo(object):
+class FirmwareInfoContainer(object):
     def __init__(self):
         # create nested defaultdict
         self.data = defaultdict(lambda: list())
@@ -46,7 +47,7 @@ class DataFoo(object):
         return self.data
 
 # read available images
-db = DataFoo()
+db = FirmwareInfoContainer()
 for branch in branches:
     for image_type in types:
         for _, _, files in os.walk('./target/%s/%s' % (branch, image_type)):
