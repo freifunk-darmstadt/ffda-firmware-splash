@@ -157,6 +157,10 @@
          "revision": "v2"},
     "buffalo-wzr-hp-ag300h":
         {"vendor": "Buffalo",
-         "model": "WZR-HP-AG300H",
-         "revision": "v1"}
+         "model": "WZR-HP-AG300H/WZR-600DHP",
+         "revision": "v1"},
+    "buffalo-wzr-hp-ag300h-wzr-600dhp":
+        {"vendor": "Buffalo",
+         "model": "WZR-HP-AG300H/WZR-600DHP",
+	 "revision": "v1"}
 }
