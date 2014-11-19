@@ -170,5 +170,13 @@
     "tp-link-archer-c7-v2":
         {"vendor": "TP-Link",
          "model": "TL-AC1750",
-         "revision": "v2"}
+         "revision": "v2"},
+    "ubiquiti-unifi-ap-pro":
+        {"vendor": "Ubiquiti",
+         "model": "Unifi AP",
+         "revision": "Pro"},
+    "tp-link-tl-wa850re-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WA850RE",
+         "revision": "v1"}
 }
