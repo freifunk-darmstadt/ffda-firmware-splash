@@ -162,9 +162,13 @@
     "buffalo-wzr-hp-ag300h-wzr-600dhp":
         {"vendor": "Buffalo",
          "model": "WZR-HP-AG300H/WZR-600DHP",
-	 "revision": "v1"},
+         "revision": "v1"},
     "tp-link-tl-wa750re-v1":
         {"vendor": "TP-Link",
          "model": "TL-WA750RE",
-         "revision": "v1"}
+         "revision": "v1"},
+    "tp-link-archer-c7-v2":
+        {"vendor": "TP-Link",
+         "model": "TL-AC1750",
+         "revision": "v2"}
 }
