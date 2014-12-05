@@ -178,5 +178,29 @@
     "tp-link-tl-wa850re-v1":
         {"vendor": "TP-Link",
          "model": "TL-WA850RE",
-         "revision": "v1"}
+         "revision": "v1"},
+    "tp-link-cpe210-v1.0":
+        {"vendor": "TP-Link",
+         "model": "CPE210",
+         "revision": "1.0"},
+    "tp-link-cpe220-v1.0":
+        {"vendor": "TP-Link",
+         "model": "CPE220",
+         "revision": "1.0"},
+    "tp-link-cpe510-v1.0":
+        {"vendor": "TP-Link",
+         "model": "CPE510",
+         "revision": "1.0"},
+    "tp-link-cpe520-v1.0":
+        {"vendor": "TP-Link",
+         "model": "CPE520",
+         "revision": "1.0"},
+    "ubiquiti-loco-m-xw":
+        {"vendor": "Ubiquiti",
+         "model": "Nanostation Loco",
+         "revision": "M2/M5 (XW)"},
+    "ubiquiti-nanostation-m-xw":
+        {"vendor": "Ubiquiti",
+         "model": "Nanostation",
+         "revision": "M2/M5 (XW)"}
 }
