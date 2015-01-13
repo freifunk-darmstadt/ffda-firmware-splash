@@ -202,5 +202,17 @@
     "ubiquiti-nanostation-m-xw":
         {"vendor": "Ubiquiti",
          "model": "Nanostation",
-         "revision": "M2/M5 (XW)"}
+         "revision": "M2/M5 (XW)"},
+    "netgear-wndr3700":
+        {"vendor": "Netgear",
+         "model": "WNDR3700",
+         "revision": "1.0"},
+    "netgear-wndr3700v2":
+        {"vendor": "Netgear",
+         "model": "WNDR3700",
+         "revision": "2.0"},
+    "netgear-wndr3800":
+        {"vendor": "Netgear",
+         "model": "WNDR3800",
+         "revision": "1.0"}
 }
