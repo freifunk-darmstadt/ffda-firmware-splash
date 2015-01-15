@@ -206,13 +206,13 @@
     "netgear-wndr3700":
         {"vendor": "Netgear",
          "model": "WNDR3700",
-         "revision": "1.0"},
+         "revision": "v2"},
     "netgear-wndr3700v2":
         {"vendor": "Netgear",
          "model": "WNDR3700",
-         "revision": "2.0"},
+         "revision": "v2"},
     "netgear-wndr3800":
         {"vendor": "Netgear",
          "model": "WNDR3800",
-         "revision": "1.0"}
+         "revision": "v1"}
 }
