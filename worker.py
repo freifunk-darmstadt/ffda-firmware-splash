@@ -55,7 +55,7 @@ for branch in branches:
             files = sorted(files)
             for image_file in files:
                 # would be great if we could just parse the manifest, but we have it only for sysupgrades atm
-                if image_file.endswith('manifest'):
+                if image_file.endswith('manifest') or image_file.endswith("SUMS"):
                     continue
 
                 # TODO: can we make this beautifulz and shiny? *_*
@@ -67,7 +67,7 @@ for branch in branches:
                     version = '%s-%s' % (version, release_date)
                 except ValueError:
                     pass
-                model = image_file.split('%s-' % version)[1].replace('-sysupgrade.bin', '').replace('.bin', '')
+                model = image_file.split('%s-' % version)[1].replace('-sysupgrade', '').replace('.bin', '').replace('.img', '')
                 filename = image_file
 
                 tmp = {'model': model, 'version': version, 'filename': filename}
