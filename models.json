@@ -206,7 +206,7 @@
     "netgear-wndr3700":
         {"vendor": "Netgear",
          "model": "WNDR3700",
-         "revision": "v2"},
+         "revision": "v1"},
     "netgear-wndr3700v2":
         {"vendor": "Netgear",
          "model": "WNDR3700",
