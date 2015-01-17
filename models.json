@@ -179,6 +179,10 @@
         {"vendor": "TP-Link",
          "model": "TL-WA850RE",
          "revision": "v1"},
+    "tp-link-tl-wa860re-v1":
+        {"vendor": "TP-Link",
+         "model": "TL-WA860RE",
+         "revision": "v1"},
     "tp-link-cpe210-v1.0":
         {"vendor": "TP-Link",
          "model": "CPE210",
