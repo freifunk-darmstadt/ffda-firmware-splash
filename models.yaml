@@ -50,10 +50,18 @@
     vendor: "TP-Link"
     model: "TL-WR941N/ND"
     revision: "v2"
-  tp-link-tl-wr941n-nd-v4: 
+  tp-link-tl-wr941n-nd-v4:
     vendor: "TP-Link"
     model: "TL-WR941N/ND"
     revision: "v4"
+  tp-link-tl-wr941n-nd-v5:
+    vendor: "TP-Link"
+    model: "TL-WR941N/ND"
+    revision: "v5"
+  tp-link-tl-wr941n-nd-v6:
+    vendor: "TP-Link"
+    model: "TL-WR941N/ND"
+    revision: "v6"
   tp-link-tl-wr740n-nd-v1: 
     vendor: "TP-Link"
     model: "TL-WR740N/ND"
@@ -146,6 +154,14 @@
     vendor: "TP-Link"
     model: "TL-WA901N/ND"
     revision: "v2"
+  tp-link-tl-wa901n-nd-v3:
+    vendor: "TP-Link"
+    model: "TL-WA901N/ND"
+    revision: "v3"
+  d-link-dir-615-rev-c1:
+    vendor: "D-Link"
+    model: "DIR-615"
+    revision: "C1"
   d-link-dir-615-rev-e1: 
     vendor: "D-Link"
     model: "DIR-615"
@@ -178,6 +194,10 @@
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Pro"
+  tp-link-tl-wa830re-v2:
+    vendor: "TP-Link"
+    model: "TL-WA830RE"
+    revision: "v2"
   tp-link-tl-wa850re-v1: 
     vendor: "TP-Link"
     model: "TL-WA850RE"
@@ -214,6 +234,10 @@
     vendor: "Ubiquiti"
     model: "Nanostation"
     revision: "M2/M5 (XW)"
+  ubiquiti-ls-sr71:
+    vendor: "Ubiquiti"
+    model: "LiteStation SR71"
+    revision: "alle"
   netgear-wndr3700: 
     vendor: "Netgear"
     model: "WNDR3700"
