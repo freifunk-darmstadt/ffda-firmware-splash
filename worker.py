@@ -34,7 +34,7 @@ class FirmwareInfoContainer(object):
         for branch in self.data:
             # first group by model
             tmp = OrderedDict()
-            for model, imageiter in groupby(sorted(self.data[branch]), key=itemgetter('model')):
+            for model, imageiter in groupby(sorted(self.data[branch], key=itemgetter('vendor', 'modell')), key=itemgetter('model')):
                 images = [image for image in imageiter]
                 tmp[model] = {'vendor': images[0]['vendor'], 'model': images[0]['model']}
                 # then group by image type
