@@ -13,7 +13,7 @@ branches = ['stable', 'beta', 'experimental']
 types = ['sysupgrade', 'factory']
 
 # load router models lookup table
-models_file = open('models.yaml', 'r')
+models_file = open('models.yml', 'r')
 models = yaml.load(models_file)
 models_file.close()
 
