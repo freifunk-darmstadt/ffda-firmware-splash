@@ -166,9 +166,13 @@
     vendor: "TP-Link"
     model: "TL-WA750RE"
     revision: "v1"
+  tp-link-archer-c5-v1:
+    vendor: "TP-Link"
+    model: "Archer C5"
+    revision: "v1"
   tp-link-archer-c7-v2: 
     vendor: "TP-Link"
-    model: "TL-AC1750"
+    model: "Archer C7"
     revision: "v2"
   ubiquiti-unifi-ap-pro: 
     vendor: "Ubiquiti"
@@ -198,6 +202,10 @@
     vendor: "TP-Link"
     model: "CPE520"
     revision: "1.0"
+  tp-link-tl-wr2543n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WR2543ND"
+    revision: "v1"
   ubiquiti-loco-m-xw: 
     vendor: "Ubiquiti"
     model: "Nanostation Loco"
