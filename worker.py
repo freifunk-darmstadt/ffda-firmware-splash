@@ -3,7 +3,7 @@ from jinja2 import Environment, FileSystemLoader
 from collections import defaultdict, OrderedDict
 from itertools import groupby
 from operator import itemgetter
-import json
+import yaml
 import os
 import sys
 from pprint import PrettyPrinter
@@ -13,8 +13,8 @@ branches = ['stable', 'beta', 'experimental']
 types = ['sysupgrade', 'factory']
 
 # load router models lookup table
-models_file = open('models.json', 'r')
-models = json.load(models_file)
+models_file = open('models.yaml', 'r')
+models = yaml.load(models_file)
 models_file.close()
 
 # setup PrettyPrinter
