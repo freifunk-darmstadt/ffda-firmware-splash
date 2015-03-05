@@ -250,4 +250,15 @@
     vendor: "Netgear"
     model: "WNDR3800"
     revision: "v1"
-
+  netgear-wndrmac:
+    vendor: "Netgear"
+    model: "WNDRMAC"
+    revision: "v1"
+  netgear-wndrmacv2:
+    vendor: "Netgear"
+    model: "WNDRMAC"
+    revision: "v2"
+  allnet-all0315n:
+    vendor: "ALLNET"
+    model: "ALL0315N"
+    revision: "alle"
