@@ -198,6 +198,22 @@
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Pro"
+  tp-link-tl-wa701n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WA701N/ND"
+    revision: "v1"
+  tp-link-tl-wa701n-nd-v2:
+    vendor: "TP-Link"
+    model: "TL-WA701N/ND"
+    revision: "v2"
+  tp-link-tl-wr743n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WA743N/ND"
+    revision: "v1"
+  tp-link-tl-wr743n-nd-v2:
+    vendor: "TP-Link"
+    model: "TL-WA743N/ND"
+    revision: "v2"
   tp-link-tl-wa830re-v2:
     vendor: "TP-Link"
     model: "TL-WA830RE"
