@@ -266,9 +266,17 @@
     vendor: "Netgear"
     model: "WNDR3700"
     revision: "v2"
+  netgear-wndr3700v4:
+    vendor: "Netgear"
+    model: "WNDR3700"
+    revision: "v4"
   netgear-wndr3800: 
     vendor: "Netgear"
     model: "WNDR3800"
+    revision: "v1"
+  netgear-wndr4300:
+    vendor: "Netgear"
+    model: "WNDR4300"
     revision: "v1"
   netgear-wndrmac:
     vendor: "Netgear"
@@ -282,3 +290,11 @@
     vendor: "ALLNET"
     model: "ALL0315N"
     revision: "alle"
+  gl-inet-6408a-v1:
+    vendor: "GL.iNet"
+    model: "6408a"
+    revision: "v1"
+  gl-inet-6416a-v1
+    vendor: "GL.iNet"
+    model: "6416a"
+    revision: "v1"
