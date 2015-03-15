@@ -294,7 +294,7 @@
     vendor: "GL.iNet"
     model: "6408a"
     revision: "v1"
-  gl-inet-6416a-v1
+  gl-inet-6416a-v1:
     vendor: "GL.iNet"
     model: "6416a"
     revision: "v1"
