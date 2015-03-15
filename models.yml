@@ -146,6 +146,10 @@
     vendor: "TP-Link"
     model: "TL-WDR4300"
     revision: "v1"
+  tp-link-tl-wdr4900-v1:
+    vendor: "TP-Link"
+    model: "TL-WDR4900"
+    revision: "v1"
   buffalo-wzr-hp-g450h: 
     vendor: "Buffalo"
     model: "WZR-HP-G450H"
