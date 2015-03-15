@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 from __future__ import print_function
 from jinja2 import Environment, FileSystemLoader
 from collections import defaultdict, OrderedDict
