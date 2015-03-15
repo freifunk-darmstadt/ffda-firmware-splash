@@ -7,7 +7,7 @@ from operator import itemgetter
 import yaml
 import os
 import sys
-from pprint import PrettyPrinter
+import re
 
 prefix = 'gluon-ffda-'
 branches = ['stable', 'beta', 'experimental']
@@ -17,9 +17,6 @@ types = ['sysupgrade', 'factory']
 models_file = open('models.yml', 'r')
 models = yaml.load(models_file)
 models_file.close()
-
-# setup PrettyPrinter
-pp = PrettyPrinter()
 
 
 # setup data foo
@@ -50,6 +47,10 @@ class FirmwareInfoContainer(object):
 # read available images
 db = FirmwareInfoContainer()
 versions = {}
+
+# pattern to parse version, model, extension from filename
+fn_pattern = re.compile("%s(?P<version>[\d.]+-?(\d*))-(?P<model>[a-z0-9-+\.]+)?\.[a-z]{3}" % prefix)
+
 for branch in branches:
     for image_type in types:
         for _, _, files in os.walk('./target/%s/%s' % (branch, image_type)):
@@ -59,32 +60,28 @@ for branch in branches:
                 if image_file.endswith('manifest') or image_file.endswith("SUMS"):
                     continue
 
-                # TODO: can we make this beautifulz and shiny? *_*
-                version_margin = 0
-                version = image_file.replace(prefix, '').split('-')[0]
-                # TODO: dirty hack to support 0.6.0-[/d]* type versioning for experimental builds
+                # parse info from filename
                 try:
-                    release_date = int(image_file.split(version)[1].split('-')[1])
-                    version = '%s-%s' % (version, release_date)
-                except ValueError:
-                    pass
-                model = image_file.split('%s-' % version)[1].replace('-sysupgrade', '').replace('.bin', '').replace('.img', '')
-                filename = image_file
+                    file_info = fn_pattern.match(image_file)
 
-                tmp = {'model': model, 'version': version, 'filename': filename}
-
-                try:
-                    tmp = dict(tmp.items() + models[model].items())
-                except KeyError:
-                    print("Missing ModelInfo for %s" % model, file=sys.stderr)
+                    version = file_info.group('version')
+                    model = file_info.group('model').replace('-sysupgrade', '')
+                except AttributeError:
+                    print("error parsing filename %s" % image_file)
                     continue
 
-                db.insert(branch, image_type, tmp['vendor'], tmp['model'], tmp['revision'], filename)
+                # match info with data from models.yaml
+                try:
+                    model_info = models[model]
+                except KeyError:
+                    print("models.yaml: no model info for %s from %s" % (model, image_file), file=sys.stderr)
+                    continue
+
+                db.insert(branch, image_type, model_info['vendor'],
+                          model_info['model'], model_info['revision'], image_file)
                 versions[branch] = version
 
 db.group()
-
-#print json.dumps(db.get())
 
 # templating
 env = Environment()
