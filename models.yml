@@ -34,6 +34,10 @@
     vendor: "TP-Link"
     model: "TL-MR3220"
     revision: "v1"
+  tp-link-tl-mr3220-v2: 
+    vendor: "TP-Link"
+    model: "TL-MR3220"
+    revision: "v2"
   ubiquiti-unifiap-outdoor: 
     vendor: "Ubiquiti"
     model: "Unifi AP"
