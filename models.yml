@@ -222,6 +222,10 @@
     vendor: "TP-Link"
     model: "TL-WA743N/ND"
     revision: "v2"
+  tp-link-tl-wa830re-v10:
+    vendor: "TP-Link"
+    model: "TL-WA830RE"
+    revision: "v1.0"
   tp-link-tl-wa830re-v2:
     vendor: "TP-Link"
     model: "TL-WA830RE"
