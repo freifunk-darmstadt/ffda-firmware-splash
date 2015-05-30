@@ -311,10 +311,18 @@
     model: "6416a"
     revision: "v1"
   x86-generic:
-    vendor: "virtualisiert"
+    vendor: "-"
     model: "x86"
-    revision: "qemu, virtualbox, vmware"
+    revision: "generic"
+  x86-virtualbox:
+    vendor: "-"
+    model: "x86"
+    revision: "vdi"
+  x86-vmware:
+    vendor: "-"
+    model: "x86"
+    revision: "vmdk"
   x86-kvm:
-    vendor: "virtualisiert (x86)"
+    vendor: "-"
     model: "x86"
     revision: "qemu+virtio"
