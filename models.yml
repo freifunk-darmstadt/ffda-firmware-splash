@@ -310,3 +310,11 @@
     vendor: "GL.iNet"
     model: "6416a"
     revision: "v1"
+  x86-generic:
+    vendor: "virtualisiert"
+    model: "x86"
+    revision: "qemu, virtualbox, vmware"
+  x86-kvm:
+    vendor: "virtualisiert (x86)"
+    model: "x86"
+    revision: "qemu+virtio"
