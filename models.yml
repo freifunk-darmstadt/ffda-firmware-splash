@@ -1,44 +1,52 @@
-  tp-link-tl-wr741n-nd-v4: 
+  tp-link-tl-wr741n-nd-v4:
     vendor: "TP-Link"
     model: "TL-WR741N/ND"
     revision: "v4"
-  tp-link-tl-wr741n-nd-v1: 
+  tp-link-tl-wr741n-nd-v5:
+    vendor: "TP-Link"
+    model: "TL-WR741N/ND"
+    revision: "v5"
+  tp-link-tl-wr741n-nd-v1:
     vendor: "TP-Link"
     model: "TL-WR741N/ND"
     revision: "v1"
-  tp-link-tl-wa801n-nd-v2: 
+  tp-link-tl-wa801n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WA801N/ND"
+    revision: "v1"
+  tp-link-tl-wa801n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WA801N/ND"
     revision: "v2"
-  d-link-dir-825-rev-b1: 
+  d-link-dir-825-rev-b1:
     vendor: "D-Link"
     model: "DIR 825"
     revision: "B1"
-  tp-link-tl-wr741n-nd-v2: 
+  tp-link-tl-wr741n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WR741N/ND"
     revision: "v2"
-  tp-link-tl-wr1043n-nd-v1: 
+  tp-link-tl-wr1043n-nd-v1:
     vendor: "TP-Link"
     model: "TL-WR1043N/ND"
     revision: "v1"
-  tp-link-tl-wr710n-v1: 
+  tp-link-tl-wr710n-v1:
     vendor: "TP-Link"
     model: "TL-WR710N"
     revision: "v1"
-  ubiquiti-nanostation-m: 
+  ubiquiti-nanostation-m:
     vendor: "Ubiquiti"
     model: "Nanostation / Nanostation Loco"
     revision: "M2/M5"
-  tp-link-tl-mr3220-v1: 
+  tp-link-tl-mr3220-v1:
     vendor: "TP-Link"
     model: "TL-MR3220"
     revision: "v1"
-  tp-link-tl-mr3220-v2: 
+  tp-link-tl-mr3220-v2:
     vendor: "TP-Link"
     model: "TL-MR3220"
     revision: "v2"
-  ubiquiti-unifiap-outdoor: 
+  ubiquiti-unifiap-outdoor:
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Outdoor"
@@ -46,15 +54,27 @@
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Outdoor+"
-  tp-link-tl-wdr3600-v1: 
+  tp-link-tl-wdr3600-v1:
     vendor: "TP-Link"
     model: "TL-WDR3600"
     revision: "v1"
-  tp-link-tl-wr941n-nd-v3: 
+  tp-link-tl-wr940n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WR940N/ND"
+    revision: "v1"
+  tp-link-tl-wr940n-nd-v2:
+    vendor: "TP-Link"
+    model: "TL-WR940N/ND"
+    revision: "v2"
+  tp-link-tl-wr940n-nd-v3:
+    vendor: "TP-Link"
+    model: "TL-WR940N/ND"
+    revision: "v3"
+  tp-link-tl-wr941n-nd-v3:
     vendor: "TP-Link"
     model: "TL-WR941N/ND"
     revision: "v3"
-  tp-link-tl-wr941n-nd-v2: 
+  tp-link-tl-wr941n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WR941N/ND"
     revision: "v2"
@@ -70,83 +90,87 @@
     vendor: "TP-Link"
     model: "TL-WR941N/ND"
     revision: "v6"
-  tp-link-tl-wr740n-nd-v1: 
+  tp-link-tl-wr740n-nd-v1:
     vendor: "TP-Link"
     model: "TL-WR740N/ND"
     revision: "v1"
-  tp-link-tl-mr3420-v1: 
+  tp-link-tl-wr740n-nd-v5:
+    vendor: "TP-Link"
+    model: "TL-WR740N/ND"
+    revision: "v5"
+  tp-link-tl-mr3420-v1:
     vendor: "TP-Link"
     model: "TL-MR3420"
     revision: "v1"
-  tp-link-tl-wr1043n-nd-v2: 
+  tp-link-tl-wr1043n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WR1043N/ND"
     revision: "v2"
-  tp-link-tl-mr3420-v2: 
+  tp-link-tl-mr3420-v2:
     vendor: "TP-Link"
     model: "TL-MR3420"
     revision: "v2"
-  tp-link-tl-mr3040-v1: 
+  tp-link-tl-mr3040-v1:
     vendor: "TP-Link"
     model: "TL-MR3040"
     revision: "v1"
-  tp-link-tl-wr842n-nd-v1: 
+  tp-link-tl-wr842n-nd-v1:
     vendor: "TP-Link"
     model: "TL-WR842N/ND"
     revision: "v1"
-  tp-link-tl-wr842n-nd-v2: 
+  tp-link-tl-wr842n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WR842N/ND"
     revision: "v2"
-  ubiquiti-unifi: 
+  ubiquiti-unifi:
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Indoor"
-  tp-link-tl-wr841n-nd-v5: 
+  tp-link-tl-wr841n-nd-v5:
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v5"
-  ubiquiti-bullet-m: 
+  ubiquiti-bullet-m:
     vendor: "Ubiquiti"
     model: "Bullet"
     revision: "M2/M5"
-  tp-link-tl-wr841n-nd-v7: 
+  tp-link-tl-wr841n-nd-v7:
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v7"
-  tp-link-tl-wr841n-nd-v3: 
+  tp-link-tl-wr841n-nd-v3:
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v3"
-  tp-link-tl-mr3020-v1: 
+  tp-link-tl-mr3020-v1:
     vendor: "TP-Link"
     model: "TL-MR3020"
     revision: "v1"
-  tp-link-tl-wr740n-nd-v4: 
+  tp-link-tl-wr740n-nd-v4:
     vendor: "TP-Link"
     model: "TL-WR740N/ND"
     revision: "v4"
-  tp-link-tl-wr841n-nd-v8: 
+  tp-link-tl-wr841n-nd-v8:
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v8"
-  tp-link-tl-wr740n-nd-v3: 
+  tp-link-tl-wr740n-nd-v3:
     vendor: "TP-Link"
     model: "TL-WR740N/ND"
     revision: "v3"
-  tp-link-tl-wr841n-nd-v9: 
+  tp-link-tl-wr841n-nd-v9:
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v9"
-  tp-link-tl-wr703n-v1: 
+  tp-link-tl-wr703n-v1:
     vendor: "TP-Link"
     model: "TL-WR703N"
     revision: "v1"
-  linksys-wrt160nl: 
+  linksys-wrt160nl:
     vendor: "Linksys"
     model: "WRT160NL"
     revision: "alle"
-  tp-link-tl-wdr4300-v1: 
+  tp-link-tl-wdr4300-v1:
     vendor: "TP-Link"
     model: "TL-WDR4300"
     revision: "v1"
@@ -154,15 +178,15 @@
     vendor: "TP-Link"
     model: "TL-WDR4900"
     revision: "v1"
-  buffalo-wzr-hp-g450h: 
+  buffalo-wzr-hp-g450h:
     vendor: "Buffalo"
     model: "WZR-HP-G450H"
     revision: "alle"
-  tp-link-tl-wdr3500-v1: 
+  tp-link-tl-wdr3500-v1:
     vendor: "TP-Link"
     model: "TL-WDR3500"
     revision: "v1"
-  tp-link-tl-wa901n-nd-v2: 
+  tp-link-tl-wa901n-nd-v2:
     vendor: "TP-Link"
     model: "TL-WA901N/ND"
     revision: "v2"
@@ -174,23 +198,23 @@
     vendor: "D-Link"
     model: "DIR-615"
     revision: "C1"
-  d-link-dir-615-rev-e1: 
+  d-link-dir-615-rev-e1:
     vendor: "D-Link"
     model: "DIR-615"
     revision: "E1"
-  tp-link-tl-mr3040-v2: 
+  tp-link-tl-mr3040-v2:
     vendor: "TP-Link"
     model: "TL-MR3040"
     revision: "v2"
-  buffalo-wzr-hp-ag300h: 
+  buffalo-wzr-hp-ag300h:
     vendor: "Buffalo"
     model: "WZR-HP-AG300H/WZR-600DHP"
     revision: "v1"
-  buffalo-wzr-hp-ag300h-wzr-600dhp: 
+  buffalo-wzr-hp-ag300h-wzr-600dhp:
     vendor: "Buffalo"
     model: "WZR-HP-AG300H/WZR-600DHP"
     revision: "v1"
-  tp-link-tl-wa750re-v1: 
+  tp-link-tl-wa750re-v1:
     vendor: "TP-Link"
     model: "TL-WA750RE"
     revision: "v1"
@@ -198,11 +222,11 @@
     vendor: "TP-Link"
     model: "Archer C5"
     revision: "v1"
-  tp-link-archer-c7-v2: 
+  tp-link-archer-c7-v2:
     vendor: "TP-Link"
     model: "Archer C7"
     revision: "v2"
-  ubiquiti-unifi-ap-pro: 
+  ubiquiti-unifi-ap-pro:
     vendor: "Ubiquiti"
     model: "Unifi AP"
     revision: "Pro"
@@ -234,27 +258,27 @@
     vendor: "TP-Link"
     model: "TL-WA830RE"
     revision: "v2"
-  tp-link-tl-wa850re-v1: 
+  tp-link-tl-wa850re-v1:
     vendor: "TP-Link"
     model: "TL-WA850RE"
     revision: "v1"
-  tp-link-tl-wa860re-v1: 
+  tp-link-tl-wa860re-v1:
     vendor: "TP-Link"
     model: "TL-WA860RE"
     revision: "v1"
-  tp-link-cpe210-v1.0: 
+  tp-link-cpe210-v1.0:
     vendor: "TP-Link"
     model: "CPE210"
     revision: "1.0"
-  tp-link-cpe220-v1.0: 
+  tp-link-cpe220-v1.0:
     vendor: "TP-Link"
     model: "CPE220"
     revision: "1.0"
-  tp-link-cpe510-v1.0: 
+  tp-link-cpe510-v1.0:
     vendor: "TP-Link"
     model: "CPE510"
     revision: "1.0"
-  tp-link-cpe520-v1.0: 
+  tp-link-cpe520-v1.0:
     vendor: "TP-Link"
     model: "CPE520"
     revision: "1.0"
@@ -262,23 +286,35 @@
     vendor: "TP-Link"
     model: "TL-WR2543ND"
     revision: "v1"
-  ubiquiti-loco-m-xw: 
+  ubiquiti-loco-m:
+    vendor: "Ubiquiti"
+    model: "Nanostation Loco"
+    revision: "M2/M5"
+  ubiquiti-loco-m-xw:
     vendor: "Ubiquiti"
     model: "Nanostation Loco"
     revision: "M2/M5 (XW)"
-  ubiquiti-nanostation-m-xw: 
+  ubiquiti-picostation-m:
+    vendor: "Ubiquiti"
+    model: "Picostation"
+    revision: "M2"
+  ubiquiti-nanostation-m-xw:
     vendor: "Ubiquiti"
     model: "Nanostation"
     revision: "M2/M5 (XW)"
+  ubiquiti-rocket-m:
+    vendor: "Ubiquiti"
+    model: "Rocket"
+    revision: "M2/M5"
   ubiquiti-ls-sr71:
     vendor: "Ubiquiti"
     model: "LiteStation SR71"
     revision: "alle"
-  netgear-wndr3700: 
+  netgear-wndr3700:
     vendor: "Netgear"
     model: "WNDR3700"
     revision: "v1"
-  netgear-wndr3700v2: 
+  netgear-wndr3700v2:
     vendor: "Netgear"
     model: "WNDR3700"
     revision: "v2"
@@ -286,7 +322,7 @@
     vendor: "Netgear"
     model: "WNDR3700"
     revision: "v4"
-  netgear-wndr3800: 
+  netgear-wndr3800:
     vendor: "Netgear"
     model: "WNDR3800"
     revision: "v1"
