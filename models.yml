@@ -34,6 +34,10 @@
     vendor: "TP-Link"
     model: "TL-WR710N"
     revision: "v1"
+  tp-link-tl-wr710n-v2:
+    vendor: "TP-Link"
+    model: "TL-WR710N"
+    revision: "v2"
   ubiquiti-nanostation-m:
     vendor: "Ubiquiti"
     model: "Nanostation / Nanostation Loco"
