@@ -1,5 +1,5 @@
 # gluon firmware target symlink
-target/
+target
 
 # rendered template
 www/index.html
