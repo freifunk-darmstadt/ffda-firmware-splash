@@ -194,7 +194,7 @@
     vendor: "Buffalo"
     model: "WZR-HP-G450H"
     revision: "alle"
- buffalo-wzr-600dhp:
+  buffalo-wzr-600dhp:
     vendor: "Buffalo"
     model: "WZR-600DHP"
     revision: "alle"
