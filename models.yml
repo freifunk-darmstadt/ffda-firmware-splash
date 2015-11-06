@@ -30,6 +30,10 @@
     vendor: "TP-Link"
     model: "TL-WR1043N/ND"
     revision: "v1"
+  tp-link-tl-wr1043n-nd-v3:
+    vendor: "TP-Link"
+    model: "TL-WR1043N/ND"
+    revision: "v3"
   tp-link-tl-wr710n-v1:
     vendor: "TP-Link"
     model: "TL-WR710N"
