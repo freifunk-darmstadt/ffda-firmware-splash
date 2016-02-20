@@ -134,6 +134,14 @@
     vendor: "TP-Link"
     model: "TL-WR842N/ND"
     revision: "v2"
+  tp-link-tl-wr843n-nd-v1:
+    vendor: "TP-Link"
+    model: "TL-WR843N/ND"
+    revision: "v1"
+  ubiquiti-airrouter:
+    vendor: "Ubiquiti"
+    model: "Airrouter"
+    revision: "alle"
   ubiquiti-unifi:
     vendor: "Ubiquiti"
     model: "Unifi AP"
@@ -198,6 +206,10 @@
     vendor: "TP-Link"
     model: "TL-WDR4900"
     revision: "v1"
+  buffalo-wzr-hp-g300nh:
+    vendor: "Buffalo"
+    model: "WZR-HP-G300NH"
+    revision: "alle"
   buffalo-wzr-hp-g450h:
     vendor: "Buffalo"
     model: "WZR-HP-G450H"
@@ -406,3 +418,11 @@
     vendor: "-"
     model: "x86"
     revision: "qemu+virtio"
+  wd-my-net-n600:
+    vendor: "WD"
+    model: "My Net N600"
+    revision: "alle"
+  wd-my-net-n750:
+    vendor: "WD"
+    model: "My Net N750"
+    revision: "alle"
