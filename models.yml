@@ -18,6 +18,10 @@
     vendor: "TP-Link"
     model: "TL-WA801N/ND"
     revision: "v2"
+  d-link-dir-505-rev-a1:
+    vendor: "D-Link"
+    model: "DIR 505"
+    revision: "A1"
   d-link-dir-825-rev-b1:
     vendor: "D-Link"
     model: "DIR 825"
