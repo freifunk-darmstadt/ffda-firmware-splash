@@ -1,492 +1,540 @@
-  8devices-carambola2-board:
-    vendor: "8devices"
-    model: "Carambola 2"
-    revision: "alle"
-  alfa-ap121:
-    vendor: "ALFA Network"
-    model: "AP121"
-    revision: "v1"
-  alfa-ap121u:
-    vendor: "ALFA Network"
-    model: "APA121U"
-    revision: "v1"
-  alfa-hornet-ub:
-    vendor: "ALFA Network"
-    model: "Hornet-UB"
-    revision: "v1"
-  tp-link-tl-wr741n-nd-v4:
-    vendor: "TP-Link"
-    model: "TL-WR741N/ND"
-    revision: "v4"
-  tp-link-tl-wr741n-nd-v5:
-    vendor: "TP-Link"
-    model: "TL-WR741N/ND"
-    revision: "v5"
-  tp-link-tl-wr741n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR741N/ND"
-    revision: "v1"
-  tp-link-tl-wa801n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WA801N/ND"
-    revision: "v1"
-  tp-link-tl-wa801n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WA801N/ND"
-    revision: "v2"
-  d-link-dir-505-rev-a1:
-    vendor: "D-Link"
-    model: "DIR 505"
-    revision: "A1"
-  d-link-dir-825-rev-b1:
-    vendor: "D-Link"
-    model: "DIR 825"
-    revision: "B1"
-  tp-link-tl-wr741n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WR741N/ND"
-    revision: "v2"
-  tp-link-tl-wr1043n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR1043N/ND"
-    revision: "v1"
-  tp-link-tl-wr1043n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WR1043N/ND"
-    revision: "v3"
-  tp-link-tl-wr710n-v1:
-    vendor: "TP-Link"
-    model: "TL-WR710N"
-    revision: "v1"
-  tp-link-tl-wr710n-v2:
-    vendor: "TP-Link"
-    model: "TL-WR710N"
-    revision: "v2"
-  ubiquiti-nanostation-m:
-    vendor: "Ubiquiti"
-    model: "Nanostation / Nanostation Loco"
-    revision: "M2/M5"
-  tp-link-tl-mr3220-v1:
-    vendor: "TP-Link"
-    model: "TL-MR3220"
-    revision: "v1"
-  tp-link-tl-mr3220-v2:
-    vendor: "TP-Link"
-    model: "TL-MR3220"
-    revision: "v2"
-  ubiquiti-unifiap-outdoor:
-    vendor: "Ubiquiti"
-    model: "Unifi AP"
-    revision: "Outdoor"
-  ubiquiti-unifiap-outdoor+:
-    vendor: "Ubiquiti"
-    model: "Unifi AP"
-    revision: "Outdoor+"
-  tp-link-tl-wdr3600-v1:
-    vendor: "TP-Link"
-    model: "TL-WDR3600"
-    revision: "v1"
-  tp-link-tl-wr940n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR940N/ND"
-    revision: "v1"
-  tp-link-tl-wr940n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WR940N/ND"
-    revision: "v2"
-  tp-link-tl-wr940n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WR940N/ND"
-    revision: "v3"
-  tp-link-tl-wr941n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WR941N/ND"
-    revision: "v3"
-  tp-link-tl-wr941n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WR941N/ND"
-    revision: "v2"
-  tp-link-tl-wr941n-nd-v4:
-    vendor: "TP-Link"
-    model: "TL-WR941N/ND"
-    revision: "v4"
-  tp-link-tl-wr941n-nd-v5:
-    vendor: "TP-Link"
-    model: "TL-WR941N/ND"
-    revision: "v5"
-  tp-link-tl-wr941n-nd-v6:
-    vendor: "TP-Link"
-    model: "TL-WR941N/ND"
-    revision: "v6"
-  tp-link-tl-wr740n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR740N/ND"
-    revision: "v1"
-  tp-link-tl-wr740n-nd-v5:
-    vendor: "TP-Link"
-    model: "TL-WR740N/ND"
-    revision: "v5"
-  tp-link-tl-mr3420-v1:
-    vendor: "TP-Link"
-    model: "TL-MR3420"
-    revision: "v1"
-  tp-link-tl-wr1043n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WR1043N/ND"
-    revision: "v2"
-  tp-link-tl-mr3420-v2:
-    vendor: "TP-Link"
-    model: "TL-MR3420"
-    revision: "v2"
-  tp-link-tl-mr3040-v1:
-    vendor: "TP-Link"
-    model: "TL-MR3040"
-    revision: "v1"
-  tp-link-tl-wr842n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR842N/ND"
-    revision: "v1"
-  tp-link-tl-wr842n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WR842N/ND"
-    revision: "v2"
-  tp-link-tl-wr843n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR843N/ND"
-    revision: "v1"
-  ubiquiti-airrouter:
-    vendor: "Ubiquiti"
-    model: "Airrouter"
-    revision: "alle"
-  ubiquiti-unifi:
-    vendor: "Ubiquiti"
-    model: "Unifi AP"
-    revision: "Indoor"
-  tp-link-tl-wr841n-nd-v5:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v5"
-  tp-link-tl-wr841n-nd-v10:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v10"
-  ubiquiti-airgateway:
-    vendor: "Ubiquiti"
-    model: "airGateway"
-    revision: "alle"
-  ubiquiti-bullet-m:
-    vendor: "Ubiquiti"
-    model: "Bullet"
-    revision: "M2/M5"
-  tp-link-tl-wr841n-nd-v7:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v7"
-  tp-link-tl-wr841n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v3"
-  tp-link-tl-mr3020-v1:
-    vendor: "TP-Link"
-    model: "TL-MR3020"
-    revision: "v1"
-  tp-link-tl-wr740n-nd-v4:
-    vendor: "TP-Link"
-    model: "TL-WR740N/ND"
-    revision: "v4"
-  tp-link-tl-wr841n-nd-v8:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v8"
-  tp-link-tl-wr740n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WR740N/ND"
-    revision: "v3"
-  tp-link-tl-wr841n-nd-v9:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v9"
-  tp-link-tl-wr841n-nd-v11:
-    vendor: "TP-Link"
-    model: "TL-WR841N/ND"
-    revision: "v11"
-  tp-link-tl-wr703n-v1:
-    vendor: "TP-Link"
-    model: "TL-WR703N"
-    revision: "v1"
-  linksys-wrt160nl:
-    vendor: "Linksys"
-    model: "WRT160NL"
-    revision: "alle"
-  tp-link-tl-wdr4300-v1:
-    vendor: "TP-Link"
-    model: "TL-WDR4300"
-    revision: "v1"
-  tp-link-tl-wdr4900-v1:
-    vendor: "TP-Link"
-    model: "TL-WDR4900"
-    revision: "v1"
-  buffalo-wzr-hp-g300nh:
-    vendor: "Buffalo"
-    model: "WZR-HP-G300NH"
-    revision: "alle"
-  buffalo-wzr-hp-g450h:
-    vendor: "Buffalo"
-    model: "WZR-HP-G450H"
-    revision: "alle"
-  buffalo-wzr-600dhp:
-    vendor: "Buffalo"
-    model: "WZR-600DHP"
-    revision: "alle"
-  tp-link-tl-wdr3500-v1:
-    vendor: "TP-Link"
-    model: "TL-WDR3500"
-    revision: "v1"
-  tp-link-tl-wa901n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WA901N/ND"
-    revision: "v1"
-  tp-link-tl-wa901n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WA901N/ND"
-    revision: "v2"
-  tp-link-tl-wa901n-nd-v3:
-    vendor: "TP-Link"
-    model: "TL-WA901N/ND"
-    revision: "v3"
-  d-link-dir-615-rev-c1:
-    vendor: "D-Link"
-    model: "DIR-615"
-    revision: "C1"
-  d-link-dir-615-rev-e1:
-    vendor: "D-Link"
-    model: "DIR-615"
-    revision: "E1"
-  tp-link-tl-mr3040-v2:
-    vendor: "TP-Link"
-    model: "TL-MR3040"
-    revision: "v2"
-  buffalo-wzr-hp-ag300h:
-    vendor: "Buffalo"
-    model: "WZR-HP-AG300H/WZR-600DHP"
-    revision: "v1"
-  buffalo-wzr-hp-ag300h-wzr-600dhp:
-    vendor: "Buffalo"
-    model: "WZR-HP-AG300H/WZR-600DHP"
-    revision: "v1"
-  tp-link-tl-wa750re-v1:
-    vendor: "TP-Link"
-    model: "TL-WA750RE"
-    revision: "v1"
-  tp-link-archer-c5-v1:
-    vendor: "TP-Link"
-    model: "Archer C5"
-    revision: "v1"
-  tp-link-archer-c7-v2:
-    vendor: "TP-Link"
-    model: "Archer C7"
-    revision: "v2"
-  ubiquiti-unifi-ap-pro:
-    vendor: "Ubiquiti"
-    model: "Unifi AP"
-    revision: "Pro"
-  tp-link-tl-wa701n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WA701N/ND"
-    revision: "v1"
-  tp-link-tl-wa701n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WA701N/ND"
-    revision: "v2"
-  tp-link-tl-wr743n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WA743N/ND"
-    revision: "v1"
-  tp-link-tl-wr743n-nd-v2:
-    vendor: "TP-Link"
-    model: "TL-WA743N/ND"
-    revision: "v2"
-  tp-link-tl-wa830re-v1:
-    vendor: "TP-Link"
-    model: "TL-WA830RE"
-    revision: "v1.0"
-  tp-link-tl-wa830re-v2:
-    vendor: "TP-Link"
-    model: "TL-WA830RE"
-    revision: "v2"
-  tp-link-tl-wa850re-v1:
-    vendor: "TP-Link"
-    model: "TL-WA850RE"
-    revision: "v1"
-  tp-link-tl-wa860re-v1:
-    vendor: "TP-Link"
-    model: "TL-WA860RE"
-    revision: "v1"
-  tp-link-cpe210-v1.0:
-    vendor: "TP-Link"
-    model: "CPE210"
-    revision: "1.0"
-  tp-link-cpe220-v1.0:
-    vendor: "TP-Link"
-    model: "CPE220"
-    revision: "1.0"
-  tp-link-cpe510-v1.0:
-    vendor: "TP-Link"
-    model: "CPE510"
-    revision: "1.0"
-  tp-link-cpe520-v1.0:
-    vendor: "TP-Link"
-    model: "CPE520"
-    revision: "1.0"
-  tp-link-cpe210-v1.1:
-    vendor: "TP-Link"
-    model: "CPE210"
-    revision: "1.1"
-  tp-link-cpe220-v1.1:
-    vendor: "TP-Link"
-    model: "CPE220"
-    revision: "1.1"
-  tp-link-cpe510-v1.1:
-    vendor: "TP-Link"
-    model: "CPE510"
-    revision: "1.1"
-  tp-link-cpe520-v1.1:
-    vendor: "TP-Link"
-    model: "CPE520"
-    revision: "1.1"
-  tp-link-tl-wr2543n-nd-v1:
-    vendor: "TP-Link"
-    model: "TL-WR2543ND"
-    revision: "v1"
-  tp-link-tl-mr13u-v1:
-    vendor: "TP-Link"
-    model: "TL-MR13U"
-    revision: "v1"
-  tp-link-tl-wa7510n-v1:
-    vendor: "TP-Link"
-    model: "TL-WA7510N"
-    revision: "v1"
-  ubiquiti-loco-m:
-    vendor: "Ubiquiti"
-    model: "Nanostation Loco"
-    revision: "M2/M5"
-  ubiquiti-loco-m-xw:
-    vendor: "Ubiquiti"
-    model: "Nanostation Loco"
-    revision: "M2/M5 (XW)"
-  ubiquiti-picostation-m:
-    vendor: "Ubiquiti"
-    model: "Picostation"
-    revision: "M2"
-  ubiquiti-nanostation-m-xw:
-    vendor: "Ubiquiti"
-    model: "Nanostation"
-    revision: "M2/M5 (XW)"
-  ubiquiti-rocket-m:
-    vendor: "Ubiquiti"
-    model: "Rocket"
-    revision: "M2/M5"
-  ubiquiti-ls-sr71:
-    vendor: "Ubiquiti"
-    model: "LiteStation SR71"
-    revision: "alle"
-  meraki-mr12:
-    vendor: "Meraki"
-    model: "MR12"
-    revision: "alle"
-  meraki-mr16:
-    vendor: "Meraki"
-    model: "MR16"
-    revision: "alle"
-  meraki-mr62:
-    vendor: "Meraki"
-    model: "MR62"
-    revision: "alle"
-  meraki-mr66:
-    vendor: "Meraki"
-    model: "MR66"
-    revision: "alle"
-  netgear-wndr3700:
-    vendor: "Netgear"
-    model: "WNDR3700"
-    revision: "v1"
-  netgear-wndr3700v2:
-    vendor: "Netgear"
-    model: "WNDR3700"
-    revision: "v2"
-  netgear-wndr3700v4:
-    vendor: "Netgear"
-    model: "WNDR3700"
-    revision: "v4"
-  netgear-wndr3800:
-    vendor: "Netgear"
-    model: "WNDR3800"
-    revision: "v1"
-  netgear-wndr4300:
-    vendor: "Netgear"
-    model: "WNDR4300"
-    revision: "v1"
-  netgear-wndrmac:
-    vendor: "Netgear"
-    model: "WNDRMAC"
-    revision: "v1"
-  netgear-wndrmacv2:
-    vendor: "Netgear"
-    model: "WNDRMAC"
-    revision: "v2"
-  onion-omega:
-    vendor: "Onion"
-    model: "Omega"
-    revision: "alle"
-  allnet-all0315n:
-    vendor: "ALLNET"
-    model: "ALL0315N"
-    revision: "alle"
-  gl-inet-6408a-v1:
-    vendor: "GL.iNet"
-    model: "6408a"
-    revision: "v1"
-  gl-inet-6416a-v1:
-    vendor: "GL.iNet"
-    model: "6416a"
-    revision: "v1"
-  x86-generic:
-    vendor: "-"
-    model: "x86"
-    revision: "generic"
-  x86-64:
-    vendor: "-"
-    model: "amd64"
-    revision: "generic"
-  x86-virtualbox:
-    vendor: "-"
-    model: "x86"
-    revision: "vdi"
-  x86-64-virtualbox:
-    vendor: "-"
-    model: "amd64"
-    revision: "vmdk"
-  x86-vmware:
-    vendor: "-"
-    model: "x86"
-    revision: "vmdk"
-  x86-64-vmware:
-    vendor: "-"
-    model: "amd64"
-    revision: "vmdk"
-  x86-kvm:
-    vendor: "-"
-    model: "x86"
-    revision: "qemu+virtio"
-  x86-xen:
-    vendor: "-"
-    model: "x86"
-    revision: "xen"
-  wd-my-net-n600:
-    vendor: "WD"
-    model: "My Net N600"
-    revision: "alle"
-  wd-my-net-n750:
-    vendor: "WD"
-    model: "My Net N750"
-    revision: "alle"
+---
+8devices-carambola2-board:
+  model: "Carambola 2"
+  revision: alle
+  vendor: 8devices
+alfa-ap121:
+  model: AP121
+  revision: v1
+  vendor: "ALFA Network"
+alfa-ap121u:
+  model: APA121U
+  revision: v1
+  vendor: "ALFA Network"
+alfa-hornet-ub:
+  model: Hornet-UB
+  revision: v1
+  vendor: "ALFA Network"
+allnet-all0315n:
+  model: ALL0315N
+  revision: alle
+  vendor: ALLNET
+buffalo-wzr-600dhp:
+  model: WZR-600DHP
+  revision: alle
+  vendor: Buffalo
+buffalo-wzr-hp-ag300h:
+  model: WZR-HP-AG300H/WZR-600DHP
+  revision: v1
+  vendor: Buffalo
+buffalo-wzr-hp-ag300h-wzr-600dhp:
+  model: WZR-HP-AG300H/WZR-600DHP
+  revision: v1
+  vendor: Buffalo
+buffalo-wzr-hp-g300nh:
+  model: WZR-HP-G300NH
+  revision: alle
+  vendor: Buffalo
+buffalo-wzr-hp-g450h:
+  model: WZR-HP-G450H
+  revision: alle
+  vendor: Buffalo
+d-link-dir-505-rev-a1:
+  revision: A1
+  vendor: D-Link
+d-link-dir-615-rev-c1:
+  model: DIR-615
+  revision: C1
+  vendor: D-Link
+d-link-dir-615-rev-e1:
+  model: DIR-615
+  revision: E1
+  vendor: D-Link
+d-link-dir-825-rev-b1:
+  model: "DIR 825"
+  revision: B1
+  vendor: D-Link
+gl-inet-6408a-v1:
+  model: 6408a
+  revision: v1
+  vendor: GL.iNet
+gl-inet-6416a-v1:
+  model: 6416a
+  revision: v1
+  vendor: GL.iNet
+linksys-wrt160nl:
+  model: WRT160NL
+  revision: alle
+  vendor: Linksys
+meraki-mr12:
+  model: MR12
+  revision: alle
+  vendor: Meraki
+meraki-mr16:
+  model: MR16
+  revision: alle
+  vendor: Meraki
+meraki-mr62:
+  model: MR62
+  revision: alle
+  vendor: Meraki
+meraki-mr66:
+  model: MR66
+  revision: alle
+  vendor: Meraki
+netgear-wndr3700:
+  model: WNDR3700
+  revision: v1
+  vendor: Netgear
+netgear-wndr3700v2:
+  model: WNDR3700
+  revision: v2
+  vendor: Netgear
+netgear-wndr3700v4:
+  model: WNDR3700
+  revision: v4
+  vendor: Netgear
+netgear-wndr3800:
+  model: WNDR3800
+  revision: v1
+  vendor: Netgear
+netgear-wndr4300:
+  model: WNDR4300
+  revision: v1
+  vendor: Netgear
+netgear-wndrmac:
+  model: WNDRMAC
+  revision: v1
+  vendor: Netgear
+netgear-wndrmacv2:
+  model: WNDRMAC
+  revision: v2
+  vendor: Netgear
+onion-omega:
+  model: Omega
+  revision: alle
+  vendor: Onion
+tp-link-archer-c5-v1:
+  model: "Archer C5"
+  revision: v1
+  vendor: TP-Link
+tp-link-archer-c7-v2:
+  model: "Archer C7"
+  revision: v2
+  vendor: TP-Link
+tp-link-cpe210-v1.0:
+  model: CPE210
+  revision: "1.0"
+  vendor: TP-Link
+tp-link-cpe210-v1.1:
+  model: CPE210
+  revision: "1.1"
+  vendor: TP-Link
+tp-link-cpe220-v1.0:
+  model: CPE220
+  revision: "1.0"
+  vendor: TP-Link
+tp-link-cpe220-v1.1:
+  model: CPE220
+  revision: "1.1"
+  vendor: TP-Link
+tp-link-cpe510-v1.0:
+  model: CPE510
+  revision: "1.0"
+  vendor: TP-Link
+tp-link-cpe510-v1.1:
+  model: CPE510
+  revision: "1.1"
+  vendor: TP-Link
+tp-link-cpe520-v1.0:
+  model: CPE520
+  revision: "1.0"
+  vendor: TP-Link
+tp-link-cpe520-v1.1:
+  model: CPE520
+  revision: "1.1"
+  vendor: TP-Link
+tp-link-tl-mr13u-v1:
+  model: TL-MR13U
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-mr3020-v1:
+  model: TL-MR3020
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-mr3040-v1:
+  model: TL-MR3040
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-mr3040-v2:
+  model: TL-MR3040
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-mr3220-v1:
+  model: TL-MR3220
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-mr3220-v2:
+  model: TL-MR3220
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-mr3420-v1:
+  model: TL-MR3420
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-mr3420-v2:
+  model: TL-MR3420
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wa701n-nd-v1:
+  model: TL-WA701N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa701n-nd-v2:
+  model: TL-WA701N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wa750re-v1:
+  model: TL-WA750RE
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa7510n-v1:
+  model: TL-WA7510N
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa801n-nd-v1:
+  model: TL-WA801N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa801n-nd-v2:
+  model: TL-WA801N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wa830re-v1:
+  model: TL-WA830RE
+  revision: v1.0
+  vendor: TP-Link
+tp-link-tl-wa830re-v2:
+  model: TL-WA830RE
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wa850re-v1:
+  model: TL-WA850RE
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa860re-v1:
+  model: TL-WA860RE
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa901n-nd-v1:
+  model: TL-WA901N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wa901n-nd-v2:
+  model: TL-WA901N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wa901n-nd-v3:
+  model: TL-WA901N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wa901n-nd-v4:
+  model: TL-WA901N/ND
+  revision: v4
+  vendor: TP-Link
+tp-link-tl-wdr3500-v1:
+  model: TL-WDR3500
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wdr3600-v1:
+  model: TL-WDR3600
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wdr4300-v1:
+  model: TL-WDR4300
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wdr4900-v1:
+  model: TL-WDR4900
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr1043n-nd-v1:
+  model: TL-WR1043N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr1043n-nd-v2:
+  model: TL-WR1043N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr1043n-nd-v3:
+  model: TL-WR1043N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wr2543n-nd-v1:
+  model: TL-WR2543ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr703n-v1:
+  model: TL-WR703N
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr710n-v1:
+  model: TL-WR710N
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr710n-v2:
+  model: TL-WR710N
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr710n-v2.1:
+  model: TL-WR710N
+  revision: v2.1
+  vendor: TP-Link
+tp-link-tl-wr740n-nd-v1:
+  model: TL-WR740N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr740n-nd-v3:
+  model: TL-WR740N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wr740n-nd-v4:
+  model: TL-WR740N/ND
+  revision: v4
+  vendor: TP-Link
+tp-link-tl-wr740n-nd-v5:
+  model: TL-WR740N/ND
+  revision: v5
+  vendor: TP-Link
+tp-link-tl-wr741n-nd-v1:
+  model: TL-WR741N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr741n-nd-v2:
+  model: TL-WR741N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr741n-nd-v4:
+  model: TL-WR741N/ND
+  revision: v4
+  vendor: TP-Link
+tp-link-tl-wr741n-nd-v5:
+  model: TL-WR741N/ND
+  revision: v5
+  vendor: TP-Link
+tp-link-tl-wr743n-nd-v1:
+  model: TL-WA743N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr743n-nd-v2:
+  model: TL-WA743N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v10:
+  model: TL-WR841N/ND
+  revision: v10
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v11:
+  model: TL-WR841N/ND
+  revision: v11
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v3:
+  model: TL-WR841N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v5:
+  model: TL-WR841N/ND
+  revision: v5
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v7:
+  model: TL-WR841N/ND
+  revision: v7
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v8:
+  model: TL-WR841N/ND
+  revision: v8
+  vendor: TP-Link
+tp-link-tl-wr841n-nd-v9:
+  model: TL-WR841N/ND
+  revision: v9
+  vendor: TP-Link
+tp-link-tl-wr842n-nd-v1:
+  model: TL-WR842N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr842n-nd-v2:
+  model: TL-WR842N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr843n-nd-v1:
+  model: TL-WR843N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr940n-nd-v1:
+  model: TL-WR940N/ND
+  revision: v1
+  vendor: TP-Link
+tp-link-tl-wr940n-nd-v2:
+  model: TL-WR940N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr940n-nd-v3:
+  model: TL-WR940N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wr941n-nd-v2:
+  model: TL-WR941N/ND
+  revision: v2
+  vendor: TP-Link
+tp-link-tl-wr941n-nd-v3:
+  model: TL-WR941N/ND
+  revision: v3
+  vendor: TP-Link
+tp-link-tl-wr941n-nd-v4:
+  model: TL-WR941N/ND
+  revision: v4
+  vendor: TP-Link
+tp-link-tl-wr941n-nd-v5:
+  model: TL-WR941N/ND
+  revision: v5
+  vendor: TP-Link
+tp-link-tl-wr941n-nd-v6:
+  model: TL-WR941N/ND
+  revision: v6
+  vendor: TP-Link
+ubiquiti-airgateway:
+  model: airGateway
+  revision: alle
+  vendor: Ubiquiti
+ubiquiti-airrouter:
+  model: Airrouter
+  revision: alle
+  vendor: Ubiquiti
+ubiquiti-bullet-m:
+  model: Bullet
+  revision: M2/M5
+  vendor: Ubiquiti
+ubiquiti-bullet-m2:
+  model: Bullet
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-bullet-m5:
+  model: Bullet
+  revision: M5
+  vendor: Ubiquiti
+ubiquiti-loco-m:
+  model: "Nanostation Loco"
+  revision: M2/M5
+  vendor: Ubiquiti
+ubiquiti-loco-m-xw:
+  model: "Nanostation Loco"
+  revision: "M2/M5 (XW)"
+  vendor: Ubiquiti
+ubiquiti-ls-sr71:
+  model: "LiteStation SR71"
+  revision: alle
+  vendor: Ubiquiti
+ubiquiti-nanostation-loco-m2:
+  model: "NanoStation Loco"
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-nanostation-loco-m5:
+  model: "NanoStation Loco"
+  revision: M5
+  vendor: Ubiquiti
+ubiquiti-nanostation-m:
+  model: "Nanostation / Nanostation Loco"
+  revision: M2/M5
+  vendor: Ubiquiti
+ubiquiti-nanostation-m-xw:
+  model: Nanostation
+  revision: "M2/M5 (XW)"
+  vendor: Ubiquiti
+ubiquiti-nanostation-m2:
+  model: NanoStation
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-nanostation-m5:
+  model: NanoStation
+  revision: M5
+  vendor: Ubiquiti
+ubiquiti-picostation-m:
+  model: Picostation
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-picostation-m2:
+  model: PicoStation
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-rocket-m:
+  model: Rocket
+  revision: M2/M5
+  vendor: Ubiquiti
+ubiquiti-rocket-m-xw:
+  model: Rocket
+  revision: "M (XW)"
+  vendor: Ubiquiti
+ubiquiti-rocket-m2:
+  model: Rocket
+  revision: M2
+  vendor: Ubiquiti
+ubiquiti-rocket-m5:
+  model: Rocket
+  revision: M5
+  vendor: Ubiquiti
+ubiquiti-unifi:
+  model: "Unifi AP"
+  revision: Indoor
+  vendor: Ubiquiti
+ubiquiti-unifi-ap-pro:
+  model: "Unifi AP"
+  revision: Pro
+  vendor: Ubiquiti
+ubiquiti-unifiap-outdoor:
+  model: "Unifi AP"
+  revision: Outdoor
+  vendor: Ubiquiti
+ubiquiti-unifiap-outdoor+:
+  model: "Unifi AP"
+  revision: Outdoor+
+  vendor: Ubiquiti
+wd-my-net-n600:
+  model: "My Net N600"
+  revision: alle
+  vendor: WD
+wd-my-net-n750:
+  model: "My Net N750"
+  revision: alle
+  vendor: WD
+x86-64:
+  model: amd64
+  revision: generic
+  vendor: "-"
+x86-64-virtualbox:
+  model: amd64
+  revision: vmdk
+  vendor: "-"
+x86-64-vmware:
+  model: amd64
+  revision: vmdk
+  vendor: "-"
+x86-generic:
+  model: x86
+  revision: generic
+  vendor: "-"
+x86-kvm:
+  model: x86
+  revision: qemu+virtio
+  vendor: "-"
+x86-virtualbox:
+  model: x86
+  revision: vdi
+  vendor: "-"
+x86-vmware:
+  model: x86
+  revision: vmdk
+  vendor: "-"
+x86-xen:
+  model: x86
+  revision: xen
+  vendor: "-"
