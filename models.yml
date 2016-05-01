@@ -40,10 +40,11 @@ buffalo-wzr-hp-g450h:
   revision: alle
   vendor: Buffalo
 d-link-dir-505-rev-a1:
+  model: DIR-505
   revision: A1
   vendor: D-Link
 d-link-dir-615-rev-c1:
-  model: DIR-615
+  model: DIR 615
   revision: C1
   vendor: D-Link
 d-link-dir-615-rev-e1:
