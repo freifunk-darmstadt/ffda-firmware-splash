@@ -1,3 +1,19 @@
+  8devices-carambola2-board:
+    vendor: "8devices"
+    model: "Carambola 2"
+    revision: "alle"
+  alfa-ap121:
+    vendor: "ALFA Network"
+    model: "AP121"
+    revision: "v1"
+  alfa-ap121u:
+    vendor: "ALFA Network"
+    model: "APA121U"
+    revision: "v1"
+  alfa-hornet-ub:
+    vendor: "ALFA Network"
+    model: "Hornet-UB"
+    revision: "v1"
   tp-link-tl-wr741n-nd-v4:
     vendor: "TP-Link"
     model: "TL-WR741N/ND"
@@ -190,6 +206,10 @@
     vendor: "TP-Link"
     model: "TL-WR841N/ND"
     revision: "v9"
+  tp-link-tl-wr841n-nd-v11:
+    vendor: "TP-Link"
+    model: "TL-WR841N/ND"
+    revision: "v11"
   tp-link-tl-wr703n-v1:
     vendor: "TP-Link"
     model: "TL-WR703N"
@@ -338,6 +358,14 @@
     vendor: "TP-Link"
     model: "TL-WR2543ND"
     revision: "v1"
+  tp-link-tl-mr13u-v1:
+    vendor: "TP-Link"
+    model: "TL-MR13U"
+    revision: "v1"
+  tp-link-tl-wa7510n-v1:
+    vendor: "TP-Link"
+    model: "TL-WA7510N"
+    revision: "v1"
   ubiquiti-loco-m:
     vendor: "Ubiquiti"
     model: "Nanostation Loco"
@@ -361,6 +389,22 @@
   ubiquiti-ls-sr71:
     vendor: "Ubiquiti"
     model: "LiteStation SR71"
+    revision: "alle"
+  meraki-mr12:
+    vendor: "Meraki"
+    model: "MR12"
+    revision: "alle"
+  meraki-mr16:
+    vendor: "Meraki"
+    model: "MR16"
+    revision: "alle"
+  meraki-mr62:
+    vendor: "Meraki"
+    model: "MR62"
+    revision: "alle"
+  meraki-mr66:
+    vendor: "Meraki"
+    model: "MR66"
     revision: "alle"
   netgear-wndr3700:
     vendor: "Netgear"
@@ -390,6 +434,10 @@
     vendor: "Netgear"
     model: "WNDRMAC"
     revision: "v2"
+  onion-omega:
+    vendor: "Onion"
+    model: "Omega"
+    revision: "alle"
   allnet-all0315n:
     vendor: "ALLNET"
     model: "ALL0315N"
